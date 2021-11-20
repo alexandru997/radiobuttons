@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.lists {
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 150px auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+.active {
+  color: orange;
+}
+ul input {
+  color: orange;
+}
+.hidden {
+  visibility: hidden;
 }
